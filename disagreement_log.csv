@@ -1,0 +1,25 @@
+﻿image,label,field,issue,mine,peer,verdict,guideline_rule,action
+D01.png,hand,side,khác giá trị (IoU=1.00),right,left,mine,4.7,"Sửa peer thành right: người lái có 1 tay trái, 1 tay phải theo giải phẫu"
+D02.png,face13,left_eye_upper.occluded,khác cờ,1,0,mine,4.6,Bật occluded=1 cho điểm mí mắt khi eye_state=unknown
+D03.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Bật occluded=1 cho điểm mí mắt khi eye_state=unknown
+D03.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Bật occluded=1 cho điểm mí mắt khi eye_state=unknown
+D05.png,face13,left_eye_lower.occluded,khác cờ,1,0,mine,4.6,Bật occluded=1 cho điểm mí mắt khi eye_state=unknown
+D05.png,face13,right_eye_lower.occluded,khác cờ,1,0,mine,4.6,Bật occluded=1 cho điểm mí mắt khi eye_state=unknown
+S01_ir.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.00,,mine,4.8,Giữ box object cho vật/búp bê trong ghế trẻ em theo guideline
+S01_ir.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.8,"Xoá box child_seat trùng lặp ở peer, chỉ giữ 1 box child_seat cho cả ghế"
+S01_rgb.png,frame_meta,light,khác giá trị,unknown,night,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
+S01_rgb.png,object,box,chỉ có ở mine (hoặc IoU thấp),IoU=0.01,,mine,4.8,Giữ box object cho vật/búp bê trong ghế trẻ em theo guideline
+S01_rgb.png,child_seat,box,chỉ có ở peer (hoặc IoU thấp),,,mine,4.8,"Xoá box child_seat trùng lặp ở peer, chỉ giữ 1 box child_seat cho cả ghế"
+S02_ir.png,infant_seat,seat,khác giá trị (IoU=1.00),rear_right,driver,mine,4.4-3,Sửa peer từ driver thành rear_right (trái ảnh là phải xe)
+S02_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
+S02_rgb.png,infant_seat,seat,khác giá trị (IoU=1.00),rear_right,driver,mine,4.4-3,Sửa peer từ driver thành rear_right (trái ảnh là phải xe)
+S03_ir.png,infant_seat,seat,khác giá trị (IoU=1.00),rear_middle,driver,mine,4.4-3,Sửa peer từ driver thành rear_middle (ghế giữa xe)
+S03_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
+S04_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
+S05_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
+S06_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
+S07_ir.png,frame_meta,camera_blocked,khác giá trị,no,,mine,4.3,"Bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+S07_ir.png,frame_meta,light,khác giá trị,unknown,,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
+S07_ir.png,frame_meta,modality,khác giá trị,ir,,mine,4.3,"Bổ sung tag frame_meta (modality=ir, light=unknown, camera_blocked=no)"
+S07_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
+S08_rgb.png,frame_meta,light,khác giá trị,unknown,day,mine,4.4-4,Sửa peer thành light=unknown vì ảnh SVIRO là ảnh dựng đồ hoạ
